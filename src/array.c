@@ -31,6 +31,7 @@ void	free_arr(int **array)
 {
 	int i;
 
+	i = 0;
 	while (i <= NB_CELLS)
 	{
 		free(array[i]);
