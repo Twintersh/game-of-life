@@ -14,13 +14,6 @@
 #define RAND 0
 #define CLEAR 1
 
-typedef struct s_save
-{
-	struct s_save *next;
-	struct s_save *prev;
-	int **data;
-}t_save;
-
 typedef enum bool
 {
 	false,
